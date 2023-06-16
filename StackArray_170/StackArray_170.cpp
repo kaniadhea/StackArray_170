@@ -4,7 +4,7 @@
 using namespace std;
 
 class StackArray {
-private: 
+private:
 	int stack_array[5];
 	int top;
 
@@ -43,4 +43,30 @@ public:
 	bool empty() {
 		return (top == -1);
 	}
+
+	void display() {
+		if (empty()) {
+			cout << "\nStack is empty." << endl;
+		}
+		else {
+			for (int tmp = top; tmp >= 0; tmp--) {
+				cout << stack_array[tmp] << endl;
+			}
+		}
+	}
+}
+
+int main() {
+	StackArray s;
+	char ch;
+	while (true) {
+		cout << endl;
+		cout << "\n***Stack Menu***\n";
+		cout << "1. Push\n";
+		cout << "2. Pop\n";
+		cout << "3. Display\n";
+
+	}
+};
+
 
