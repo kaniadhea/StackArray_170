@@ -74,25 +74,25 @@ int main() {
 			s.push();
 			break;
 		}
-		case '2': 
+		case '2':
 			if (s.empty()) {
 				cout << "\nStack is empty." << endl;
 				break;
 			}
 			s.pop();
 			break;
-		case '3' :
+		case '3':
 			s.display();
 			break;
 		case '4':
 			return 0;
-		default :
+		default:
 			cout << "\nInvaliid choice" << endl;
 			break;
 
 		}
 	}
-};
+}; 
 
 
 
