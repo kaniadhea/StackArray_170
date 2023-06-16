@@ -86,6 +86,9 @@ int main() {
 			break;
 		case '4':
 			return 0;
+		default :
+			cout << "\nInvaliid choice" << endl;
+			break;
 
 		}
 	}
