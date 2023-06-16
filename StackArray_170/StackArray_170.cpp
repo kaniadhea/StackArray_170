@@ -21,5 +21,14 @@ public:
 			cout << "Number of data exceeds the lisit." << endl;
 			return;
 		}
+
+		top++;
+		stack_array[top] = element; //step 3
+		cout << endl;
+		cout << element << "ditambahkan(pushed)" << endl;
+
 	}
-};
+
+	void pop() {
+		if (empty()) { //step 1
+			cout << "\nStack is empty. Cannot pop." << endl; //1.a
