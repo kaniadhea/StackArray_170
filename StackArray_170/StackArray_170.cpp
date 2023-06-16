@@ -3,4 +3,7 @@
 
 using namespace std;
 
-class StackArray 
+class StackArray {
+private: 
+
+};
